@@ -27,6 +27,15 @@
 1. Flask
 2. httplib2, oauth2client, sqlalchemy psycopg2
 
+## Usage:
+
+After ssh in the server:
+
+`cd /var/www/catalog/catalog`
+`sudo python database_setup.py` (to set up the database)
+`sudo python CityAttraction.py` (to populate the database with initial data)
+`sudo python application.py`  (to run the server)
+
 
 ## Third Party Resource
 
