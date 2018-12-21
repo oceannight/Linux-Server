@@ -27,6 +27,13 @@
 1. Flask
 2. httplib2, oauth2client, sqlalchemy psycopg2
 
+## Usage
+
+After ssh in the server
+
+`cd /var/www/catalog/catalog`
+`sudo python application.py`
+
 
 ## Third Party Resource
 
