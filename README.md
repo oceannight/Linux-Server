@@ -3,8 +3,8 @@
 - It sets up the item catalog app project on amazon lightsail virtual server
 
 ## Server Info
-1. IP address:54.146.148.42, port 2200
-2. URL http://54.146.148.42.xip.io
+1. IP address:34.228.75.251, port 2200
+2. URL http://34.228.75.251.xip.io
 
 ## Configuration 
 1. Change ssh port 22 to 2200 by editing sshd_config file (`sudo nano /etc/ssh/sshd_config`)
@@ -26,15 +26,6 @@
 
 1. Flask
 2. httplib2, oauth2client, sqlalchemy psycopg2
-
-## Usage:
-
-After ssh in the server:
-
-`cd /var/www/catalog/catalog`
-`sudo python database_setup.py` (to set up the database)
-`sudo python CityAttraction.py` (to populate the database with initial data)
-`sudo python application.py`  (to run the server)
 
 
 ## Third Party Resource
